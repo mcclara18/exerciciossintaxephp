@@ -1,2 +1,2 @@
-$areaterreno = 150.75;
+$areaterreno = 150.00;
 echo "<p>Área do terreno: {$areaterreno} m²</p>";
