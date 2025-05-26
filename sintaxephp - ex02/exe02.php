@@ -1,2 +1,2 @@
-$quantidadeEstoque = 25;
+$quantidadeEstoque = 500;
 echo "<p>Quantidade atual em estoque: $quantidadeEstoque</p>";
