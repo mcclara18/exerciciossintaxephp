@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>{{title}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            margin: 0; padding: 0;
+        }
+        header {
+            background: #072f4e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            margin: 0;
+            font-weight: normal;
+            color: #f0f5fb;
+        }
+        main {
+            padding: 20px;
+            max-width: 700px;
+            margin: 30px auto;
+            background: rgb(229, 229, 232);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #0a0a70;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>{{title}}</h1>
+    <h2>{{subtitle}}</h2>
+</header>
+
+<main>
+    {{content}}
+</main>
+
+<footer>
+    &copy; 2025 Meu Site - Exercicios de sintaxe php 
+</footer>
+
+</body>
+</html>
